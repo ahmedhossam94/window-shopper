@@ -22,9 +22,12 @@ class RadText: UITextField {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
+        
     customeView()
        
     }
+   
+    
     func customeView()  {
         backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.2918985445)
         layer.cornerRadius = 5
